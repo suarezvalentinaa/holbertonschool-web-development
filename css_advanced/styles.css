@@ -290,9 +290,6 @@ button.register-button {
   font-size: 14px;
   font-weight: 600;
 }
-<<<<<<< HEAD
-
-=======
 
 /* Membership section styles - Fourth Section */
 .fourth-section {
@@ -355,6 +352,7 @@ button.register-button {
 
 /* FAQ section styles - Fifth Section Styles */
 .fifth-section {
+    width: 1440px;
   padding: 90px 0;
   background: white;
 }
@@ -399,4 +397,43 @@ button.register-button {
   font-size: 14px;
   line-height: 24px;
 }
->>>>>>> 49f1306aa9214c0286622ccefb774c612a4cc019
+
+/* Footer styles - Sixth Section Styles */
+.footer {
+    width: 1440px;
+  background: #071629;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright-text {
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  font-size: 12px;
+}
